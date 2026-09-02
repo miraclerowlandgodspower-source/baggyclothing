@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: black;
+    color: #fff;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbars{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
+    list-style: gap 100px;
+}
