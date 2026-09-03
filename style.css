@@ -2,22 +2,115 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
-.header{
-    background-color: black;
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+header .Logo{
+    font-size: 24px;
+    font-weight: bold;
     color: #fff;
 }
 
-.logo{
+header .navbars ul{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    list-style: none;
 }
 
-.navbars{
+header .navbars ul a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 20px;
+    font-size: 18px;
+
+}  
+header .navbars a.btn{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+}
+
+.login
+signup{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 20px;
+}
+body{
+    background-image: url('background1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.navbars {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 20px;
+}
+
+navbars ul {
+    display: flex;
+    list-style: none;
+}
+
+navbars ul a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+navbars ul a:hover {
+    color: #ffcc00;
+}
+section{
     display: flex;
     justify-content: center;
-    align-items: stretch;
-    gap: 20px;
-    list-style: gap 100px;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+section .hero-content{
+    color: #fff;
+}
+section .hero-content h1{
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+section .hero-content p{
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+section .hero-content .btn{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
 }
